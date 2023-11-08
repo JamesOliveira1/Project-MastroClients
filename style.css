@@ -55,7 +55,7 @@ header {
 .top:hover{    
     text-decoration: none;
     border-radius: 3px 0 0 3px;
-    background-color: rgba(89, 0, 253, 0.7);
+    background-color: rgba(0, 173, 253);
 }
 
 /* MENU /////////////////////// */
@@ -109,6 +109,80 @@ header {
     display:none;
 }
 
+.buttonlogin{
+    display: inline-block;
+    background-color:rgb(0, 173, 253);
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-size:10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius:20px;    
+    align-items: center;
+}
+
+.buttonlogin:hover{
+    background-color:rgb(2, 12, 44);
+}
+
+.buttonsalvar{
+    display: flex;
+    background-color:rgb(0, 253, 126);
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-size:10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    border-radius:20px;    
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.buttonsalvar:hover{
+    background-color:rgb(31, 73, 52);
+}
+
+.botoessalvar{
+    display: flex;  
+    width: 500px;  
+    justify-content: flex-end;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+
+
+.buttoncancelar{
+    display: flex;
+    background-color:rgb(247, 108, 108);
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-size:10px;    
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius:20px;  
+    text-align: center;  
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.buttoncancelar:hover{
+    background-color:rgb(97, 46, 46);
+}
+
 nav .button{
     display: inline-block;
     background-color:rgb(0, 173, 253);
@@ -144,7 +218,17 @@ nav .button{
     overflow: hidden;
 }
 
-.banner .sliders {
+.fundo {
+    background-color:rgb(48, 48, 48);
+    height:auto;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding-bottom: 40px;
+    padding-top:20px;
+}
+
+.banner .sliders, .fundo .sliders {
     width:1000vw;
     height:100%;
 }
@@ -153,7 +237,19 @@ nav .button{
     width:100vw;
     height:100%;
     display:inline-block;
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.fundo .slidearea, 
+.slideshow-container .slidearea{
+    display: flex;
+    text-align: center;
+    height:100%;
+    align-items:center;
+    justify-content:center;
+    color: white;
+    flex-direction: column;
+    margin-top:10px;
 }
 
 .banner .slidearea, 
@@ -167,7 +263,7 @@ nav .button{
     flex-direction: column;
 }
 
-.banner h1{
+.banner h1, .fundo h1{
     line-height: 60px;
     text-align: center;
     text-transform: uppercase;
@@ -179,17 +275,50 @@ nav .button{
     text-align: center;
     font-size:40px;
     letter-spacing: 8px;
-    font-family: Montserrat;
-    font-weight: 100;
-    color: rgb(0, 173, 253)
+    color: rgb(0, 173, 253);
 }
 
-.banner h2{
+.areadoclientep {
+    padding-top:10px;
+}
+
+.banner h2 {
     text-transform: uppercase;
     margin-top: 30px;
     letter-spacing: 3px;    
 }
 
+.fundo h2{
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;  
+    text-align: center;  
+}
+
+.tabelainfo {
+    border-radius: 20px;
+    border: 2px solid rgba(36, 28, 28, 0.5);
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    min-height: 185px;
+}
+
+.slidearea h4{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(184, 184, 184);
+    margin-top: 10px;    
+}
+
+
+.tabelainfo h3{
+    margin-bottom: 5px;
+    margin-left:15px;
+}
 
 
 .banner .slider-pointers{
@@ -210,6 +339,200 @@ nav .button{
     align-items:center;
     justify-content:center;
 }
+
+.clientname{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 8px;
+    color: rgb(0, 173, 253);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.pdfview object{
+    height:678px;
+    width: 75vw;
+}
+
+.pdfview iframe{
+    height:678px;
+    width:75vw;
+}
+
+.tabelafin table{
+    text-align: center;
+    width: 90vw;
+    min-height: 185px;
+    margin-bottom: 15px;
+    border-spacing: 0;
+    align-items: center;
+    border: 2px solid rgb(66,66,66);
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    
+}
+
+.tabelafin{
+    overflow: auto; 
+    width: 90vw;
+}
+
+.admtable{
+    border-top: 2px solid rgb(66,66,66);
+    text-align: left;
+    padding: 10px 0px;
+    margin: 10px;
+    width: 500px;
+    max-width: 500px;
+    
+}
+
+.admtable h2{
+    padding-top: 10px;
+}
+
+.admtable h3{
+    display: flex;    
+    margin-bottom: 5px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admtable input{
+    width: 350px;
+    padding: 1px 10px;
+}
+
+
+.informacoes span{
+    color:rgb(184, 184, 184);
+    margin-left: 5px;
+
+}
+
+
+
+.clientebusca{
+    margin-top: 0px;
+border-top:none;
+width: 300px;
+display: flex;
+flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    color:rgb(0, 173, 253);
+}
+
+.clientebusca input{
+    width: 500px;
+    }
+   
+
+.tabelainfo h3:last-child{
+    padding-bottom: 10px;
+}
+
+.tabelafin h2{
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    display: contents;
+}
+
+.ultimaatualizacao{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(184, 184, 184);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.legendatabela{
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 30px;
+    width: 88vw;
+}
+
+.legendatabela h4{
+    text-align: left;
+}
+
+td{
+    font-size: 12px;
+    font-weight: 600;
+    height: 40px;      
+    min-width: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid rgb(66,66,66);  
+    color: rgb(184, 184, 184);
+}
+
+.td1:first-child{
+    border-top-left-radius: 20px;
+    border-left: 0px;
+}
+
+
+
+.td1{
+    border-top:0px;
+}
+
+.td1:last-child{        
+    border-top-right-radius: 20px;
+    border-top:0px;
+    border-right:0px;
+}
+
+.td2{
+    border-right: 0px;
+}
+
+.td3{
+    border-left: 0px;
+}
+
+
+.td4:first-child{
+    border-bottom-left-radius: 20px;
+    border-left: 0px;
+}
+
+.td4:last-child{
+    border-bottom-right-radius: 20px;
+    border-right: 0px;
+}
+
+.td4{
+    border-bottom: 0px;
+    
+}
+
+
+.enviar a{
+    color: rgb(0, 173, 253);
+    text-decoration: none;
+}
+
+
+.apagar a{
+    color:rgb(247, 108, 108);
+    text-decoration: none;
+}
+
+
 
 .banner .pointer,
 .slideshow-container .pointer{
@@ -246,7 +569,7 @@ nav .button{
     font-weight: 600;
     color:rgb(184, 184, 184);
     margin-top:10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .default.light .section-desc{
@@ -268,7 +591,7 @@ nav .button{
 }
 
 .default.dark {
-    background-color:rgb(2, 12, 44);
+    background: radial-gradient(circle at 47.00000127156576% 100%, #424457 0%, 17.5%, rgba(66,68,87,0) 35%), radial-gradient(circle at 0% 3.6666667461395264%, rgba(71,162,147,0.45) 0%, 17.5%, rgba(71,162,147,0) 35%), radial-gradient(circle at 12.333333492279053% 84.83333587646484%, #17192D 0%, 39%, rgba(23,25,45,0) 78%), radial-gradient(circle at 73.00004323323567% 35.50000190734863%, #424457 0%, 29.5%, rgba(66,68,87,0) 59%), radial-gradient(circle at 95% 22.833333015441895%, #17192D 0%, 20%, rgba(23,25,45,0) 40%), radial-gradient(circle at 48.999999364217125% 80.83337783813477%, rgba(66,68,87,0.99) 0%, 25%, rgba(66,68,87,0) 50%), radial-gradient(circle at 10.333333810170492% 16.99999968210856%, #9698AB 0%, 57%, rgba(150,152,171,0) 95%), radial-gradient(circle at 94.3333371480306% 84.83333587646484%, #47A293 0%, 42%, rgba(71,162,147,0) 70%), radial-gradient(circle at 48.9013671875% 49.521484375%, #17192D 0%, 100%, rgba(23,25,45,0) 100%);
 }
 
 .default.dark .section-title,
@@ -290,7 +613,8 @@ nav .button{
   
 /* Hide the images by default */
   .mySlides {
-    display: none;
+    display: none;    
+    min-height: 500px;
 }
   
 /* Next & previous buttons */
@@ -310,18 +634,18 @@ nav .button{
   
 /* Position the "next button" to the right */
 .next {
-    right: 0;
+    right: -76px;
     border-radius: 0 3px 3px 0;
 }
 
 .prev {
-    left: 0;
+    left: -76px;
     border-radius: 3px 0 0 3px;
 }
   
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(89, 0, 253, 0.7);
+    background-color: rgba(0, 173, 253, 0.5);
 }
   
 /* The dots/bullets/indicators */
@@ -329,8 +653,10 @@ nav .button{
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
-    background-color: rgba(89, 0, 253, 0.7);
+    margin-left:2px;
+    margin-right: 2px;
+    margin-top:10px;
+    background-color: rgba(0, 173, 253, 0.5);
     opacity: 0.5;
     border-radius: 50%;
     display: inline-block;
@@ -470,6 +796,26 @@ nav .button{
     justify-content:center;
 }
 
+
+.white{
+    color:white;
+}
+.dadospagamento h2{
+    font-size: 16px;
+    padding-bottom: 13px;
+
+}
+
+.dadospagamento h4{
+    text-align: left;
+    margin-left:30px;
+}
+
+.dadospagamento h4:last-child{
+    padding-bottom: 15px;
+
+}
+
 .section-projects--photo {
     width: 280px;
 }
@@ -536,14 +882,20 @@ nav .button{
     align-items:center
 }
 
-.section-itens ul{    
-    padding-left: 30px;
-    padding-right: 10px;
+.listaanexos{
+    display: flex;
 }
 
-.section-itens li{
+.listaanexos ul{    
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.listaanexos li{
     margin-top: 20px;
-    color: rgb(2, 12, 44);
+    color: rgb(184, 184, 184);
     font-size: 18px;
     text-align: left;
     font-weight: bold;    
@@ -580,6 +932,14 @@ nav .button{
 
 .section-inovation--left{ 
        flex:1;
+}
+
+.novoanexo{
+    margin-top: 40px;
+}
+
+.novoanexo:first-of-type{
+    margin-top: 0px;
 }
 
 .section-inovation--right{
@@ -763,6 +1123,72 @@ nav .button{
     width:500px
 }
 
+.arquivoanexo a{
+    color: rgb(184, 184, 184);
+    text-align: left;
+    justify-content: center;
+    left: 35%;
+    position: absolute;
+
+}
+
+.button_plus {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: rgba(148, 50, 50, 0);
+    cursor: pointer;
+    border: 2px solid rgb(0, 173, 253);
+    border-radius: 3px;
+    right:0;
+    margin-right: 12px;
+  }
+
+ .resumo{
+    color: rgb(0, 173, 253);
+ }
+  
+  .button_plus:after {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 4px;
+    width: 50%;
+    background: rgb(0, 173, 253);
+    top: 50%;
+    left: 50%;
+  }
+  
+  .button_plus:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 173, 253);
+    height: 50%;
+    width: 4px;
+  }
+  
+  .button_plus:hover:before,
+  .button_plus:hover:after {
+    background: rgb(255, 255, 255);
+    transition: 0.2s;
+  }
+  
+  .button_plus:hover {
+    background-color: rgba(0, 173, 253, 0.5);
+    transition: 0.2s;
+  }
+
+
+.arquivoanexo{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+
+
 #contato .button2{
     background-color: rgb(2, 12, 44);
 }
@@ -815,18 +1241,29 @@ nav .button{
 }
 
 
+
+.titlesuporte{
+    padding-bottom: 15px;
+}
+
 .section-map--info-item {
     display: flex;
     align-items:center;
     margin-bottom: 10px;
     text-decoration: none;
     text-decoration: none; 
-    color: rgb(2, 12, 44);
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(184, 184, 184);
 }
 
 .section-map--info-item a{
+    display:flex;
+    align-items: center;
     text-decoration: none; 
-    color: rgb(2, 12, 44);
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(184, 184, 184);
 }
 
 .section-map--info-item-img {
@@ -836,7 +1273,6 @@ nav .button{
     display:inline-flex;
     justify-content: center;
     align-items:center;
-    background-color: rgb(0, 173, 253);
     border-radius:15px;
     margin-right: 15px;
 }
@@ -850,6 +1286,10 @@ nav .button{
     width:100vw;
     max-width: 1140px;
     margin:auto;  
+}
+
+.faleconosco{
+    padding-top:10px;
 }
 
 .rodape-area{ 
@@ -889,6 +1329,50 @@ nav .button{
     text-align: center;
     font-size: 15px;
     font-weight: 600;
+}
+
+.tituloareacliente{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.tabelalogin{
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    align-items: center;
+    display:inline-block;
+    justify-content: center;
+    padding-bottom:30px;
+}
+
+.mantenha{
+    display:flex;
+    justify-content: center;
+}
+
+.logininput{
+    display:block;
+    text-align: center;
+    align-items: center;    
+    justify-content: center;
+}
+
+#username, #password{
+    width: 300px;
+    padding: 3px 12px;
+    color:rgb(48, 48, 48);
+}
+
+.tabelalogin h3{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.tabelalogin h2{
+    margin-top: 15px;
 }
 
 #sub{    
@@ -933,6 +1417,23 @@ nav .button{
     margin-right: 20px;    
 }
 
+.saveicon {
+    margin-right: 0;
+}
+
+.saveicon a{
+    padding-left: 8px;
+}
+
+.real{
+    text-align: left;
+}
+
+.valortotal{
+    display: flex;
+    flex-direction: row;
+}
+
 .menu-Button .line {
     width: 100%;
     height: 20%;
@@ -958,6 +1459,14 @@ nav {
     height: calc(100vh - 100px);    
     transition: all 0.5s ease;
     justify-content: right;
+}
+
+.banner .slidearea, .slideshow-container .slidearea {
+    height: 90%;
+}
+
+.listaanexos{
+    min-height: 70vw;
 }
 
 nav .button{
@@ -994,11 +1503,12 @@ nav .button {
 .menu li a{
     font-weight: bold;
     height:60px;
-    font-size: 27px;
+    font-size: 30px;
     margin-left: 30px;
     border:0;    
     margin-right: 20px;
     justify-content: right;
+    margin-top: 15px;
     transition: all 0.5s ease
 }
 
@@ -1006,8 +1516,63 @@ nav .button {
     justify-content: right;
 }
 
+.slidearea h1{
+    font-size: 60px;
+}
+
+.slidearea h2{
+    font-size: 20px;
+}
+#suporteh4 {
+font-size: 16px;
+}
+
+.tabelafin h2{
+font-size:16px;
+}
+
+.section-map--info-item a{
+    font-size:16px;
+    display: flex;
+    align-items: center;
+}
+
+.section-map--info-item {
+    font-size:16px; 
+}
+
+.section-map--info-item-img img{
+    width: 24px;
+}
+
+   
+.logininput{
+    justify-content: center;
+display:flex;
+}
+.slidearea h4{
+    font-size: 16px;
+}
+
+.tabelainfo{
+    overflow: auto;
+    padding-right: 20px; 
+   
+}
+
+.tabelainfo h3{
+    font-size:18px;
+    width:max-content;
+}
+
+td{
+    font-size:14px;
+}
 
 
+.ultimaatualizacao{
+    font-size:16px;
+}
 .menu li.active a{
     border:0;
     color: rgb(0, 173, 253);
@@ -1192,12 +1757,67 @@ nav .button {
         z-index:99;
         top:100px;
         right:0;
-        background-color: rgba(89, 0, 253, 0.7);
+        background-color: rgba(0, 173, 253, 0.5);
         height: calc(100vh - 100px);
         transition: all 0.5s ease-in-out;
     }
 
-    .menu-Button {
+    .pdfview object{
+        height:678px;
+        width: 90vw;
+    }
+    
+    .pdfview iframe{
+        height:678px;
+        width:90vw;
+    }
+
+    nav .button {
+        display: none;
+    }
+
+    .tabelainfo{
+        width: 80vw;        
+        overflow: auto;
+        padding-right: 20px;         
+    }
+
+    #username, #password {
+        width: 70%;
+    }
+
+    .logininput{
+        justify-content: center;
+    display:flex;
+    }
+    .slidearea h4{
+        width: 70%;
+        font-size:14px;
+    }
+
+
+    .legendatabela h4{
+        font-size:12px;
+    }
+    .banner .slidearea, .slideshow-container .slidearea {
+        height: 90%;
+    }
+    .sair {
+        display: block;
+    }
+
+    .legendatabela h4{
+        width: 100%;
+    }
+
+    .dadospagamento h4{
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    
+
+       .menu-Button {
         width: 30px;
         height: 30px;
         margin-right: 20px;    
@@ -1212,12 +1832,13 @@ nav .button {
         flex-direction: column;
     }
 
-    .menu li a{
+        .menu li a{
         font-weight: bold;
         height:40px;
-        font-size: 17px;
+        font-size: 23px;
         margin-left: 10px;
-        border:0;        
+        border:0;   
+        margin-top: 15px;     
         margin-right: 10px;
         justify-content: right;
     }
@@ -1232,19 +1853,61 @@ nav .button {
         width:35px;
         margin-right: 30px;
     }
-
+    .tabelainfo h3 {
+        font-size: 17px;
+        overflow: auto;
+        width:max-content;
+    }
+    
     .logo {        
         margin-left: 30px;
     }
 
     .slidearea h1{
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .slidearea h2{
-        font-size: 15px;
+        font-size: 20px;
     }
+#suporteh4 {
+    font-size: 14px;
+}
 
+.tabelafin h2{
+    font-size:13px;
+}
+
+td{
+    min-width: 120px;
+}
+
+.section-map--info-item {
+    display: flex;
+    font-size: 16px;    
+    padding-right: 15px;
+}
+
+.logininput, .mantenha{
+    
+    padding-right: 0px;
+}
+
+.section-map--info-item-img img {
+    width: 20px;
+}
+.section-map--info-item a{
+    font-size: 16px;
+    display: flex;
+    align-items: center; 
+    padding-right: 15px;
+    
+}
+.section-map--info-item-img {
+    margin-left: 10px;
+    padding-right: 15px;
+    
+}
     .slidearea h1 span{        
         font-size: 30px;
     }

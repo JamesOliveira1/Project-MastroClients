@@ -23,7 +23,7 @@
     <div class="header">
 
         <div class="logo">
-           <a href="index.html"> <img src="Shared/icones/logo_mastro.png" alt="logo"></a>
+            <a href="index.html"> <img src="Shared/icones/logo_mastro.png" alt="logo"></a>
         </div>
 
         <div class="menu">
@@ -36,7 +36,7 @@
         </div>
 
             <nav id="nav" class="navhide">
-                <ul>                  
+                <ul>                    
                     <li><a href="info.html">Informações</a></li> 
                     <li><a href="controle.html">Financeiro</a></li> 
                     <li><a href="contrato.html">Contrato</a></li>
@@ -53,17 +53,40 @@
 <!-- //////////////////////////////  PRINCIPAL //////////////////////////////-->
 
 <main>
-    <section class="banner" style= "background-image:url(Shared/sea.jpg)">
-        <div class="sliders" style="margin-left: 0vw;">
+    <section class="fundo"> 
+        
             <div class="slide">
                 <div class="slidearea">
-                    <h1>Bem vindo <br><span>John Smith </span></h1>
 
-                    <p class="tituloareacliente areadoclientep">Área do cliente</p>
                     
+                        <section class="anexos" id="itens">
+                            <div class="section-title tituloareacliente">CONTRATO</div>
+
+                            <h3 class="clientname">John Smith </h3>
+                            
+                            <div class="pdfview">
+                                <object
+                                  data='./dbteste/contratoexemplo.pdf'
+                                  type="application/pdf"
+                                  
+                                >
+                          
+                                  <iframe
+                                    src='./dbteste/contratoexemplo.pdf'
+                                    
+                                  >
+                                  <p>This browser does not support PDF!</p>
+                                  </iframe>
+                                </object>
+                              </div>
+                        </section>
+                    
+
+                    
+
                 </div>
             </div>
-        </div>
+        
     </section>
 
 

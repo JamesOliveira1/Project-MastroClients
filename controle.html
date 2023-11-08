@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Mastro D'ascia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="librarys\lightense.js"></script>
+</head>
+
+<body>
+
+    <!-- ////////////////////////////// HEADER E MENU //////////////////////////////-->
+
+    <header id="titan">
+        <div class="header">
+
+            <div class="logo">
+                <a href="index.html"> <img src="Shared/icones/logo_mastro.png" alt="logo"></a>
+            </div>
+
+            <div class="menu">
+                <div class="menu-opener" onclick="navhide()">
+                    <div class="menu-Button" alt="menu">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+
+                <nav id="nav" class="navhide">
+                    <ul>
+                        <li><a href="info.html">Informações</a></li>
+                        <li><a href="controle.html">Financeiro</a></li>
+                        <li><a href="contrato.html">Contrato</a></li>
+                        <li><a href="anexos.html">Anexos</a></li>
+                        <li><a href="suporte.html">Suporte</a></li>
+                        <li class="sair"><a href="login.html">Sair</a></li>
+                        <a href="login.html" class="button">Sair</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- //////////////////////////////  PRINCIPAL //////////////////////////////-->
+
+    <main>
+
+        <section class="fundo">
+
+            <div class="slide">
+                <div class="slidearea">
+                    <p class="tituloareacliente faleconosco">Controle de pagamentos</p>
+
+                    <h4>Acompanhe na planilha abaixo os valores e atualizações sobre as parcelas de seu contrato.</h4>
+                    <br>
+                    <br>
+
+                    <div class="tabelafin">
+                        <table>
+                            <tr>
+                                <td class="td1">
+                                    <h2>Parcela</h2>
+                                </td>
+                                <td class="td1">
+                                    <h2>Valor</h2>
+                                </td>
+                                <td class="td1">
+                                    <h2>Vencimento</h2>
+                                </td>
+                                <td class="td1">
+                                    <h2>Correção</h2>
+                                </td>                               
+                                <td class="td1">
+                                    <h2>Valor Corrigido</h2>
+                                </td>
+                                <td class="td1">
+                                    <h2>Comprovante</h2>
+                                </td>
+                                <td class="td1">
+                                    <h2>Pagamento</h2>
+                                </td>
+                                <td class="td1">
+                                    <h2>Status</h2>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="td3">Entrada</td>
+                                <td><span class="white">R$ 100.000,00</span></td>
+                                <td>15/11/2022</td>
+                                <td>IPCA - 08/2022</td>
+                                
+                                <td><span class="white">R$ 100.000,00</span></td>
+                                <td>
+                                    <div class="section-map--info-item-img saveicon"><a href="./dbteste/anexoteste.txt" download><img src="./Shared/icones/save.png"
+                                                alt="Salvar"></a> <a href="./dbteste/anexoteste.txt" download><img src="./Shared/icones/save.png"
+                                                    alt="Salvar"></a></div>
+                                </td>
+                                <td>10/11/2022</td>
+                                <td class="td2">OK</td>
+                            </tr>
+
+                            <tr>
+                                <td class="td3">1ª Parcela</td>
+                                <td><span class="white">R$ 100.000,00</span></td>
+                                <td>15/12/2022</td>
+                                <td>IPCA - 09/2022</td>                                
+                                <td><span class="white">R$ 112.000,00</span></td>
+                                <td>
+                                    <div class="section-map--info-item-img saveicon"><a href="./dbteste/anexoteste.txt" download><img src="./Shared/icones/save.png"
+                                        alt="Salvar"></a> <a href="./dbteste/anexoteste.txt" download><img src="./Shared/icones/save.png"
+                                            alt="Salvar"></a> <a href="./dbteste/anexoteste.txt" download><img src="./Shared/icones/save.png"
+                                                alt="Salvar"></a></div>
+                                </td>
+                                <td>15/11/2022</td>
+                                <td class="td2">OK</td>
+                            </tr>
+
+                            <tr>
+                                <td class="td3">2ª Parcela</td>
+                                <td><span class="white">R$ 100.000,00</span></td>
+                                <td>15/01/2023</td>
+                                <td>IGPM - 10/2022</td>                                
+                                <td><span class="white">R$ 135.000,00</span></td>
+                                <td>
+                                    <div class="section-map--info-item-img saveicon"><a href="./dbteste/anexoteste.txt" download><img src="./Shared/icones/save.png"
+                                        alt="Salvar"></a></div>
+                                </td>
+                                <td>10/12/2022</td>
+                                <td class="td2">OK</td>
+                            </tr>
+
+                            <tr>
+                                <td class="td3">3ª Parcela</td>
+                                <td><span class="white">R$ 100.000,00</span></td>
+                                <td>15/02/2023</td>
+                                <td>IGPM - 03/2023</td>                                
+                                <td><span class="white">R$ 143.000,00</span></td>
+                                <td>
+                                    <div class="section-map--info-item-img saveicon"><a href="./dbteste/anexoteste.txt" download><img src="./Shared/icones/save.png"
+                                        alt="Salvar"></a></div>
+                                </td>
+                                <td>10/01/2023</td>
+                                <td class="td2">OK</td>                                
+                            </tr>
+
+                            <tr>
+                                <td class="td3">4ª Parcela</td>
+                                <td><span class="white">R$ 100.000,00</span></td>
+                                <td>15/03/2023</td>
+                                <td>IPCA - 04/2023</td>                                
+                                <td><span class="white">R$ 176.000,00</span></td>
+                                <td>
+                                    <div class="section-map--info-item-img saveicon"></div>
+                                </td>
+                                <td></td>
+                                <td class="td2">Em aberto</td>                                
+                            </tr> 
+                            
+                            <tr>
+                                <td class="td3">5ª Parcela</td>
+                                <td><span class="white">R$ 100.000,00</span></td>
+                                <td>15/04/2023</td>
+                                <td></td>                                
+                                <td><span class="white"></span></td>
+                                <td>
+                                    <div class="section-map--info-item-img saveicon"></div>
+                                </td>
+                                <td></td>
+                                <td class="td2">Não disponivel</td>                                
+                            </tr>
+
+                            <tr>
+                                <td class="td4">6ª Parcela</td>
+                                <td class="td4"><span class="white">R$ 100.000,00</span></td>
+                                <td class="td4">15/05/2023</td>
+                                <td class="td4"></td>
+                                
+                                <td class="td4"><span class="white"></span></td>
+                                <td class="td4"></td>
+                                <td class="td4"></td>
+                                <td class="td4">Não disponivel</td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+                    <!-- <div class="legendatabela">
+
+                        <h4> <span class="white">IPCA: </span>Índice de Preços ao Consumidor Amplo, é um dos indicadores
+                            da inflação no Brasil que influenciam nos valores das parcelas conforme acordado em
+                            contrato. </h4>
+                        <h4> <span class="white">INDICE: </span>Valor do IPCA usado para cálculo dos valores corrigidos.
+                        </h4>
+
+                    </div> -->
+<div class="valortotal">
+
+                    <div class="tabelainfo dadospagamento">
+                        <h2>RESUMO</h2>
+                        
+                        <h4> Valor total: <span class="white"> R$ 700.000,00</span> </h4>
+                        <h4> Valor pago: <span class="white">R$ 490.000,00</span></h4>
+                        <h4> Valor devido*: <span class="white">R$ 210.000,00</span></h4>
+                        <h4> *Sem correção</h4>
+
+                    </div>
+
+                    <div class="tabelainfo dadospagamento">
+                        <h2>Dados para pagamento</h2>
+
+                        <h4><span class="white"> Banco do Brasil</span></h4>
+                        <h4> Agência: <span class="white"> 3174-7</span> </h4>
+                        <h4> Conta: <span class="white">115.396-X</span></h4>
+                        <h4> *Substituir o X pelo zero</h4>
+                        <h4> MASTRO D’ASCIA NÁUTICA LTDA EPP</h4>
+                        <h4> CNPJ: <span class="white">04.709.201/0001-13</span> (Chave PIX)</h4>
+
+                    </div>
+</div>
+                    <br>
+
+                </div>
+            </div>
+            
+            <div class="ultimaatualizacao">ultima atualização : 28/11/22</div>
+
+        </section>
+
+
+    </main>
+</body>
+
+<!-- ////////////////////////////// RODAPE  //////////////////////////////-->
+
+<footer>
+    <section class="default dark">
+
+        <div class="rodape">
+            <div class="rodape-area">
+
+                <div class="rodape-area-icones">
+
+                    <a target="_blank" href="https://www.facebook.com/MastroDAscia/"><img
+                            src="Shared/icones/facebook.png" alt="facebook"></a>
+                    <a target="_blank" href="https://www.instagram.com/mastrodascia/"><img
+                            src="Shared/icones/instagram.png" alt="instagram"></a>
+                    <a target="_blank"
+                        href="https://www.google.com/maps/search/Mastro+D'Ascia/@-27.6690132,-48.6892097,15z"><img
+                            src="Shared/icones/maps.png" alt="maps"></a>
+                    <a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=5548991466864"><img
+                            src="Shared/icones/whatsapp.png" alt="whatsapp"></a>
+                </div>
+
+                <!-- <div class="rodape-area-sub">
+                    <p><label>RECEBA NOVIDADES <br>EM SEU E-MAIL</label><br>
+                        <input id="sub" type="email" name="Email" placeholder="seu-email@dominio.com.br" autocomplete="off" required></p> 
+                        <input class="button2" type="submit" value="Inscrever"> 
+                </div>
+                -->
+
+                <div class="rodape-logo">
+                    <img src="Shared/icones/logo_mastro.png" alt="logo">
+                </div>
+
+
+            </div>
+            <div class="rodape-autor">
+                <p>Copyright &copy; <script>
+                        document.write(new Date().getFullYear())
+                    </script> Mastro D'Ascia - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </section>
+    <a class="top" href="#titan">&#10094;</a>
+
+</footer>
+
+</html>
